@@ -7,18 +7,9 @@
 * @invite not-set
 */
 
-
 /* making it so dark and light mode are the same (since the theme is only gray) */
 
-@import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-settings.css");
 
-:root {
-    --settingsiconssize     :               18px;
-    --settingsiconsgap      :               14px;
-}
-
-
- 
 .theme-dark,.theme-light {
     --header-primary        :             #fff;
     --header-secondary      :             #b9bbbe;
@@ -2639,7 +2630,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
     padding-left: 10px;
 }
 
-
+ 
 
 .root-g14mjS > [style="position: relative; width: 440px; height: 660px; overflow: hidden;"] > [style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] .content-2hZxGK::-webkit-scrollbar{
     display: none;
