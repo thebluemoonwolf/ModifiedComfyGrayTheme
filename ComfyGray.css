@@ -2706,3 +2706,40 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .guilds-2JjMmN .scrollerBase-_bVAAt {
   max-height: calc(100% - 25px) !important;
 }
+
+
+/* reverts new stupid update with the unread bars) */
+.bar-wDIGjg {
+  background-color: var(--background-accent);
+  justify-content: center;
+  filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.4));
+}
+.container-24rGVp > div {
+  width: 93.333%;
+}
+.bar-wDIGjg > * {
+  color: var(--header-primary) !important;
+  z-index: 0;
+}
+.bar-wDIGjg .text-xs-medium-2LRpEj  {
+  text-transform: uppercase;
+  font-weight: 600 !important;
+}
+.unreadIcon-3dqgX9 {
+  display: none;
+}
+.mentionsDot-lLfrj1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  margin-right: 0;
+}
+.mentionsDot-lLfrj1 + .text-xs-medium-2LRpEj::after {
+  font-size: 12px;
+  content: "NEW MENTIONS";
+}
+.mentionsDot-lLfrj1 + .text-xs-medium-2LRpEj {
+  font-size: 0px;
+  margin-bottom: -4px;
+}
