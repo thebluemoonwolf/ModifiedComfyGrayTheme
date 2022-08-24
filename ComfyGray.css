@@ -1465,7 +1465,7 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* profile banner full background */
-.bannerPremium-kkSkPv:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9),.banner-1YaD3N:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9) {
+.bannerPremium-kkSkPv:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9,#account .bannerPremium-kkSkPv),.banner-1YaD3N:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9,#account .bannerPremium-kkSkPv) {
   position                  :               absolute;
   height                    :               100%;
   width                     :               100%;
