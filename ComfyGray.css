@@ -162,7 +162,7 @@
 
 
 /* main colors for the theme */
-:root{
+.theme-dark,.theme-light{
     --background-primary    :             #121212;
     --background-secondary  :             #121212;
     --color-brand-lighter   :             #383838;
