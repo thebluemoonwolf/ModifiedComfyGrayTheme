@@ -2766,4 +2766,10 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 }
   
   
-  
+/* revert connect platforms icon */
+.connectedAccountContainer-SlCC-S [class^=connectedAccountOpenIcon-]{
+    transform: scale(0.8);
+    -webkit-mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3Csvg height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19,19H5V5h7V3H5c-1.11,0 -2,0.9 -2,2v14c0,1.1 0.89,2 2,2h14c1.1,0 2,-0.9 2,-2v-7h-2v7zM14,3v2h3.59l-9.83,9.83 1.41,1.41L19,6.41V10h2V3h-7z' fill='currentColor' /%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    background-color: currentColor;
+}
