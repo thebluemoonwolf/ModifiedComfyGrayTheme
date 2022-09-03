@@ -2773,3 +2773,41 @@ html body #app-mount .wrapper-28eC3z foreignObject {
     -webkit-mask-repeat: no-repeat;
     background-color: currentColor;
 }
+
+/* theme developer username */
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us::before,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us::before{
+  content: '【 𝙏𝙝𝙚𝙢𝙚 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 】';
+  padding-right: 5px;
+  color: currentColor;
+  display: inline-block;
+  filter: drop-shadow(0 0 5px currentColor);
+  font-size: 1rem;
+  transition: .3s ease;
+}
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us,
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us{
+  font-size: 0px;
+}
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us::after,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us::after{
+  content: none;
+}
+.message-2CShn3 [data-user-id="521340540411838464"]+h2 .username-h_Y3Us:hover::before,
+.message-2CShn3 [src*="521340540411838464"]+h2 .username-h_Y3Us:hover::before{
+  color: #999999;
+}
+
+/* restling the new useless ahh bar above chatbox*/
+.attachedBars-2BCP3l>div[class='']>.bar-2qGj24{
+  border-radius: 25px;
+  margin-bottom: 3px;
+  background-color: #383838;
+}
+.attachedBars-2BCP3l>div[class='']>.bar-2qGj24>*:not(.actions-3vungX){
+  margin-left: -5px;
+  margin-right: 14px;
+}
+.stackedAttachedBar-u4gXN8{
+  border: none;
+}
