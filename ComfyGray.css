@@ -1588,7 +1588,7 @@ to {
 }
 
 
-.username-h_Y3Us:before {
+.username-h_Y3Us:after {
     content                 :               "";
     position                :               absolute;
     width                   :               100%;
@@ -1603,7 +1603,7 @@ to {
 .username-h_Y3Us:hover{
     text-decoration         :               none !important;
 }
-.username-h_Y3Us:hover:before {
+.username-h_Y3Us:hover:after {
     transform               :               scaleX(1);
     transform-origin        :               bottom left;
 }
