@@ -2811,3 +2811,22 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .stackedAttachedBar-u4gXN8{
   border: none;
 }
+
+/* restyling error bar above chatbox */
+.messagesWrapper-RpOMA3>.messagesErrorBar-1IQ1rH{
+  border-radius: 25px;
+  padding-bottom: 3px;
+  top: calc(100% - 24px);
+  width: 97.6%;
+  left: 18px;
+  max-width: 97.6%;
+}
+
+/* ShowAllActivites restyle */
+:where(.ShowAllActivities-wrapper-controls,.ShowAllActivities-wrapper-caret):not(#a){
+  background: transparent;
+  background-color: transparent;
+}
+.ShowAllActivities-wrapper-selected:not(#a){
+  background: #999;
+}
