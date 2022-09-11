@@ -2778,3 +2778,8 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .ShowAllActivities-wrapper-selected:not(#a){
   background: #999;
 }
+
+/* fixing guild profile styling */
+.guild-profile .guild-info .section{
+  margin-right: 40%;
+}
