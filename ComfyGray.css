@@ -436,24 +436,24 @@
 
 
 /* custom textbox */
-.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]),
-.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]), .input-3r5zZY, .input-2g-os5  {
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]),
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]), .input-3r5zZY, .input-2g-os5  {
   background-color        :             #303030 !important;
   transition              :               background-color 0.2s ease, border-color 0.2s ease !important;
   border                  :               1px solid transparent !important;
   outline                 :               none !important;
 }
-.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]):hover,
-.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]):hover, .input-3r5zZY:hover, .input-2g-os5  {
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]):hover,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]):hover, .input-3r5zZY:hover, .input-2g-os5  {
   border-color            :             #5a5a5a !important;
   background-color        :             rgb(32, 32, 32) !important;
 }
-.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]):focus-within,
-.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxg,[placeholder="Search or create a post..."]L):focus-within, .input-3r5zZY:focus-within, .input-2g-os5  {
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]):focus-within,
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxg,[placeholder^="Search"]L):focus-within, .input-3r5zZY:focus-within, .input-2g-os5  {
   background-color        :             #444444c2 !important;
   border-color            :               var(--color-brand-lighter) !important;
 }
-.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]) {
+.scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]) {
   border                  :               1px solid transparent;
   border-radius           :               25px;
 }
@@ -1432,7 +1432,7 @@ border-bottom-left-radius :               0;
   background-color        :             rgba(0, 0, 0, 0) !important;
   padding-right           :               0px;
 }
-.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover, .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]):hover, .input-3r5zZY:hover{
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover, .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]):hover, .input-3r5zZY:hover{
   border-color            :             rgb(58, 58, 58);
 }
 .search-25t1e9 .searchBox-31Zv9h:focus, .search-25t1e9 .searchBox-31Zv9h:focus-within {
@@ -1440,7 +1440,7 @@ border-bottom-left-radius :               0;
   box-shadow              :               none !important;
   border-color            :               transparent !important;
 }
-.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within, .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder="Search or create a post..."]):focus-within, .input-3r5zZY:focus-within{
+.input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within, .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL,[placeholder^="Search"]):focus-within, .input-3r5zZY:focus-within{
   border-color            :             rgb(117, 117, 117);
   transition              :               0.5s ease;
 }
