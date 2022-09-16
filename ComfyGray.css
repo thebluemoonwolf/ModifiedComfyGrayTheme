@@ -255,72 +255,114 @@
 	justify-content: unset;
 	flex: unset
 }
-
 .contentColumn-1C7as6,
 .customColumn-2n-oKU,
 .hero-1aNo0v {
 	max-width: unset;
 }
-
 .accountProfileCard-lbN7n- {
-	max-width: 750px;
+	max-width: 100%;
 }
-
 .notificationSettings-1U0JsJ {
 	max-width: 45%;
 }
-
 .option-2eIyOn,
 .searchBox-pyIJJj {
 	transition: 0.20s ease;
 }
 
-/* custom user profile settings made by me and my friend */
-#my-account-tab .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  filter: brightness(.5);
+/* custom user profile settings made by me */
+.background-3d_SjE {
+  border: 1px solid #252525;
 }
-#my-account-tab .accountProfileCard-lbN7n- .field-21XZwa *{
-  z-index: 5;
+.field-21XZwa:first-child {
+  margin-left: 10px;
 }
-.accountProfileCard-lbN7n->.userInfo-regn9W{
-  position: absolute;
-  margin-top: 40px;
-}
-.accountProfileCard-lbN7n->.userInfo-regn9W .avatar-3mTjvZ{
-  top: calc(-46px * 2 / 3.3);
-  background-color: #20222580;
-  border-color: transparent;
-}
-.accountProfileCard-lbN7n->.background-3d_SjE{
-  margin-top: 8.5rem;
+.field-21XZwa {
+  width: calc((100%/3) - 16px);
+  border-radius: 8px;
+  background-color: var(--background-primary);
+  border: 1px solid #252525;
+  height: 108px;
+  max-height: none;
+  flex-flow: column;
+  padding: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0;
   position: relative;
-  background: transparent;
-  backdrop-filter: brightness(.5);
+  overflow-y: scroll;
 }
-.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP{
-  background: transparent;
+.field-21XZwa::-webkit-scrollbar {
+  width: 0;
 }
-.accountProfileCard-lbN7n->.userInfo-regn9W .profileCardUsernameRow-1bb6fi>:first-child{
-  backdrop-filter: brightness(.6);
-  padding: 3px;
-  border-radius: 5px;
-  margin-bottom: 0;
+.accountProfileCard-lbN7n- .avatar-3mTjvZ{
+  transform: translateX(-50%);
+  left: 50%;
+  border-color: #151515;
 }
-.accountProfileCard-lbN7n->.userInfo-regn9W .profileCardUsernameRow-1bb6fi>.overflowMenuButton-1I3Jz1{
-  backdrop-filter: brightness(.6);
-  padding: 3px;
-  border-radius: 5px;
+.userInfo-regn9W{
+  margin-bottom: 70px;
 }
-.accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>*{
-  margin-top: 3px;
-  backdrop-filter: brightness(.6);
+.userInfo-regn9W>div:not([class]){
+  width: 100%;
+  margin-top: 55px;
+}
+.userInfo-regn9W>div:not([class])>div{
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+.accountProfileCard-lbN7n-{
+  background-color: #151515;
+}
+.accountProfileCard-lbN7n- .button-f2h6uQ{
   border-radius: 25px;
 }
-
+.userInfo-regn9W>button{
+  border: 1px solid #888;
+}
+.field-21XZwa>button,
+.field-21XZwa>.fieldButtonList-28BYbB{
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  right: 5px;
+}
+.field-21XZwa>.fieldButtonList-28BYbB{
+  margin-right: 10px;
+}
+ .field-21XZwa>.constrainedRow-3y91Xf{
+  text-align: center;
+  justify-content: center;
+}
+.accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]{
+  margin-right: 15px;
+}
+.accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>:first-child{
+  border-radius: 5px 0 0 5px;
+  padding-left: 5px;
+  border-left: 1px solid #888;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  margin: 0;
+}
+#app-mount .accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>:last-child{
+  padding-right: 5px;
+  border-radius: 0 5px 5px 0;
+  border-right: 1px solid #888;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  margin: 0;
+  margin-right: 10px;
+}
+.accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>div:not(:first-child,:last-child){
+  border-radius: 0;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  margin: 0;
+}
 
 /* makes all the pages(chat for example) margin */
 .sidebar-1tnWFu {
@@ -1657,7 +1699,7 @@ button[aria-label="Show Game Activity"]::before {
 .role-2TIOKu {
   background-color:transparent!important;
 }
-.avatar-3QF_VA,.wrapper-1VLyxH {
+.root-8LYsGj .avatar-3QF_VA,.root-8LYsGj .wrapper-1VLyxH {
   border-color:transparent!important;
   background-color:transparent!important;
 }
@@ -3275,7 +3317,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 }
 
 .headerRow-1MKoR->.header-1Uy0p6 {
-	border: 1px solid #222 !important;
+	border: 1px solid #222;
 }
 
 .form-25Aujy>.titleContainer-2YK93J>.submitButton-3B-dZd[disabled],
