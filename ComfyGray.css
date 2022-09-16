@@ -276,81 +276,49 @@
 }
 
 /* custom user profile settings made by me and my friend */
-.accountProfileCard-lbN7n->.settingsBanner-1eDJ5w {
-	width: 100%;
-	height: 300px;
-	border-radius: 10px;
-	filter: blur(1.3px) brightness(.4);
+#my-account-tab .accountProfileCard-lbN7n->.settingsBanner-1eDJ5w{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  filter: brightness(.5);
 }
-
-.accountProfileCard-lbN7n->.userInfo-regn9W,
-.accountProfileCard-lbN7n->.background-3d_SjE {
-	width: 55%;
-	position: relative;
-	left: 6%;
-	bottom: 300px;
-	height: 100px;
+#my-account-tab .accountProfileCard-lbN7n- .field-21XZwa *{
+  z-index: 5;
 }
-
-.accountProfileCard-lbN7n->.userInfo-regn9W .avatar-3mTjvZ {
-	left: -30px;
-	top: -10px;
+.accountProfileCard-lbN7n->.userInfo-regn9W{
+  position: absolute;
+  margin-top: 40px;
 }
-
-.accountProfileCard-lbN7n->.background-3d_SjE {
-	width: 95%;
-	left: 0px;
-	background-color: rgba(0, 0, 0, 0.26);
-	overflow-y: scroll;
-	overflow-x: hidden;
+.accountProfileCard-lbN7n->.userInfo-regn9W .avatar-3mTjvZ{
+  top: calc(-46px * 2 / 3.3);
+  background-color: #20222580;
+  border-color: transparent;
 }
-
-.accountProfileCard-lbN7n->.background-3d_SjE::-webkit-scrollbar {
-	visibility: hidden;
+.accountProfileCard-lbN7n->.background-3d_SjE{
+  margin-top: 8.5rem;
+  position: relative;
+  background: transparent;
+  backdrop-filter: brightness(.5);
 }
-
-.accountProfileCard-lbN7n- {
-	max-height: 300px;
-	background-color: transparent;
-	width: 840px;
-	border-radius: 9px;
+.accountProfileCard-lbN7n->.background-3d_SjE>.fieldList-in8WkP{
+  background: transparent;
 }
-
-.userInfo-regn9W {
-	margin-top: 20px;
+.accountProfileCard-lbN7n->.userInfo-regn9W .profileCardUsernameRow-1bb6fi>:first-child{
+  backdrop-filter: brightness(.6);
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 0;
 }
-
-.fieldList-in8WkP {
-	margin-top: 20px;
-	background-color: transparent;
+.accountProfileCard-lbN7n->.userInfo-regn9W .profileCardUsernameRow-1bb6fi>.overflowMenuButton-1I3Jz1{
+  backdrop-filter: brightness(.6);
+  padding: 3px;
+  border-radius: 5px;
 }
-
-.accountProfileCard-lbN7n->.button-f2h6uQ {
-	position: relative;
-	width: 900px;
-	left: 200px;
-}
-
-.avatar-3mTjvZ {
-	border: none;
-	background-color: transparent;
-}
-
-.profileCardUsernameRow-1bb6fi {
-	position: relative;
-	right: 55px;
-}
-
-.accountProfileCard-lbN7n- .button-f2h6uQ:nth-child(3) {
-	position: relative;
-	left: 290px;
-}
-
-.accountProfileCard-lbN7n- .container-1gYwHN {
-	position: relative;
-	left: -100%;
-	top: 230%;
-	margin-left: 15px
+.accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>*{
+  margin-top: 3px;
+  backdrop-filter: brightness(.6);
+  border-radius: 25px;
 }
 
 
