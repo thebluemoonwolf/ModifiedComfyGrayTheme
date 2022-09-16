@@ -29,7 +29,7 @@
   -webkit-mask: none !important;
           mask: none !important;
 }
-#app-mount [class*=pill]:not(.tags-2CaEuN>.pill-3pRQlO) {
+#app-mount [class*=pill]:not(.tags-2CaEuN>.pill-3pRQlO,.tagListInner-35MqcW>.pill-3pRQlO) {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
