@@ -430,8 +430,10 @@
 	border-radius: 15px;
 }
 
-.content-1SgpWY .applicationStore-2nk7Lo .scroller-29cQFV::-webkit-scrollbar {
-	display: none;
+.content-1SgpWY .applicationStore-2nk7Lo .scroller-29cQFV::-webkit-scrollbar,
+.lastMessageDate-ocEw13,
+.joinedAtDate-IawR02 {
+	display: none !important;
 }
 
 .shaker-bevRrZ .focusLock-2tveLW .root-2s1-ri,
@@ -1711,8 +1713,8 @@ button[aria-label="Show Game Activity"]::before {
   margin-top: 10px;
   margin-left: -13px;
 }
-.root-8LYsGj .tabBarContainer-sCZC4w{
-  margin-top: 50px;
+.userInfoSection-2u2hir+.userInfoSection-2u2hir{
+  padding-top: 15px;
 }
 .premiumIconWrapper-32h0Ri {
   display: none;
@@ -2689,13 +2691,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 
 
-/* fixing some bugs in full user popout */
-.focusLock-2tveLW[aria-label] .root-8LYsGj .date-YN6TCS {
-	position: relative;
-	top: 59px;
-	margin-left: 65%;
-}
-
 .focusLock-2tveLW[aria-label] .root-8LYsGj .nameTag-2Nlmsy {
 	margin-left: 30px;
 }
@@ -3346,4 +3341,5 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 }
 .discordMemberCreatedAt-3htTfn{
   width: auto;
+  padding-right: 15px;
 }
