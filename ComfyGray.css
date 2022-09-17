@@ -3343,3 +3343,35 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 	font-family: inherit;
 	font-weight: 600;
 }
+
+
+/* fixing some more forum bugs(please god forgive me for using 7 !important's, it will never happen again i promise.) */
+
+.mainCard-3KBsBI>.container-JhuCwn>form>.formContainer-1zrOWf .titleContainer-2YK93J>.inputWrapper-1YNMmM textarea:not(#a),
+.mainCard-3KBsBI>.container-JhuCwn>form>.formContainer-1zrOWf .channelTextAreaInner-2_mflx:not(#a),
+.children-1xdcWE .marginTop20-2T8ZJx>.channelTextArea-1VQBuV>.scrollableContainer-15eg7h:not(#a){
+	background-color: transparent !important;
+	border-radius: 0 !important;
+	border: none !important;
+}
+.children-1xdcWE .marginTop20-2T8ZJx>.channelTextArea-1VQBuV>.scrollableContainer-15eg7h:not(#a#b),
+.marginTop20-2T8ZJx>#slate-toolbar{
+	background-color: #151515 !important;
+	border: 1px solid #222 !important;
+}
+.checklist-3XWUt6>.stepContainer-SaPPyG.completed-30eMdh .step-38AIuE>*{
+	color: white !important;
+}
+.checklist-3XWUt6>.stepContainer-SaPPyG{
+	background-color: transparent;
+	border: 1px solid #222;
+	transition: .3s ease;
+}
+.checklist-3XWUt6>.stepContainer-SaPPyG:hover{
+	box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
+	border-color: transparent;
+	transform: translateY(-2px);
+}
+.checklist-3XWUt6>.stepContainer-SaPPyG .stepStatus-3oAHkt[style*="--status-positive-background"] {
+	background-color: #999 !important;
+}
