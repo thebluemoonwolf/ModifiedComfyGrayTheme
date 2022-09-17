@@ -363,6 +363,10 @@
   border-bottom: 1px solid #888;
   margin: 0;
 }
+#app-mount .accountProfileCard-lbN7n->.userInfo-regn9W .container-1gYwHN[aria-label]>:only-child:not(#a){
+  border-radius: 5px;
+  padding: 1px;
+}
 
 /* makes all the pages(chat for example) margin */
 .sidebar-1tnWFu {
