@@ -3330,3 +3330,20 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .container-3YcgdM>.buttons-BK5gED>:first-child>.active-OdlCV- {
 	color: #999;
 }
+
+/* fixing the new disgusting user tag */
+.discordMemberCreatedAt-3htTfn>.discordMemberCreatedAtText-18ZCAV>div{
+  display: none;
+}
+.discordMemberCreatedAt-3htTfn>.discordMemberCreatedAtText-18ZCAV>h3{
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 10;
+}
+.discordMemberCreatedAt-3htTfn>svg{
+  transform: scale(.7);
+  padding: 0;
+}
+.discordMemberCreatedAt-3htTfn{
+  width: auto;
+}
