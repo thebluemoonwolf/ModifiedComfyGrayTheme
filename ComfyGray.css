@@ -3386,9 +3386,9 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .messageContent-2t3eCI>a[title]:not([title^="https://"])::after{
   content: none !important;
 }
-.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/channels"]){
+.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/"]){
   font-size: 100%;
 }
-.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/channels"]):hover{
+.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/"]):hover{
   text-decoration: underline;
 }
