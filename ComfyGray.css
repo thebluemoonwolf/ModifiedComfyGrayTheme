@@ -3379,3 +3379,16 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .checklist-3XWUt6>.stepContainer-SaPPyG .stepStatus-3oAHkt[style*="--status-positive-background"] {
 	background-color: #999 !important;
 }
+
+
+/* fix discohook hrefs turning into a button */
+.messageContent-2t3eCI>a[title]:not([title^="https://"])::before,
+.messageContent-2t3eCI>a[title]:not([title^="https://"])::after{
+  content: none !important;
+}
+.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/channels"]){
+  font-size: 100%;
+}
+.messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/channels"]):hover{
+  text-decoration: underline;
+}
