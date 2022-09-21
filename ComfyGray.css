@@ -2403,26 +2403,14 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 
 /* shows memberlist roles on hover */
-.ChannelDms-channelmembers-wrap {
-	transition: all 1;
-	margin-right: -11.5%;
-}
-
-.ChannelDms-channelmembers-wrap:hover {
-	transition: all 1s;
-	margin-right: 0;
-}
-
 .membersGroup-2eiWxl {
 	height: 0px;
 	margin: 0px;
 	padding: 0px;
-	-webkit-transition: .4s ease;
 	transition: .4s ease;
 }
-
 .members-3WRCEx:hover .membersGroup-2eiWxl {
-	height: 11.9px;
+	height: 15px;
 	margin: 10px;
 }
 
