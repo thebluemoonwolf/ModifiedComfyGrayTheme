@@ -7,6 +7,16 @@
 * @invite not-set
 */
 
+
+/**
+* @name ComfyGray
+* @version 1.0
+* @author carrot#8812
+* @description A theme with a nice shade of gray everywhere! Its super comfy.
+* @source https://github.com/ObjectiveSlayer/ComfyGray
+* @invite not-set
+*/
+
 /* making it so dark and light mode are the same (since the theme is only gray) */
 
 
@@ -434,9 +444,7 @@
 	border-radius: 15px;
 }
 
-.content-1SgpWY .applicationStore-2nk7Lo .scroller-29cQFV::-webkit-scrollbar,
-.lastMessageDate-ocEw13,
-.joinedAtDate-IawR02 {
+.content-1SgpWY .applicationStore-2nk7Lo .scroller-29cQFV::-webkit-scrollbar {
 	display: none !important;
 }
 
@@ -1690,52 +1698,6 @@ button[aria-label="Show Game Activity"]::before {
 }
 
 
-/* profile banner full background */
-.bannerPremium-kkSkPv:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N),
-.banner-1YaD3N:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, .popoutBanner-3cqRD9) {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: .3;
-  border-radius: 5px;
-  bottom: 0px;
-  filter: blur(7px);
-}
-.note-3M15gE > textarea,.note-Go5ZP2 > textarea,.bodyInnerWrapper-2bQs1k,.footer-3naVBw,.inputWrapper-1YNMmM > input,
-.role-2TIOKu {
-  background-color:transparent!important;
-}
-.root-8LYsGj .avatar-3QF_VA,.root-8LYsGj .wrapper-1VLyxH {
-  border-color:transparent!important;
-  background-color:transparent!important;
-}
-.nameTag-2Nlmsy{
-  left: 135px;
-}
-.root-8LYsGj .badgeList-2aoHPw {
-  position: relative;
-  margin-top: 10px;
-  margin-left: -13px;
-}
-.userInfoSection-2u2hir+.userInfoSection-2u2hir{
-  padding-top: 15px;
-}
-.premiumIconWrapper-32h0Ri {
-  display: none;
-}
-.root-8LYsGj .relationshipButtons-3ByBpj{
-  margin-top: -25px;
-}
-.userInfoSection-2u2hir{
-  margin-top: 10px;
-}
-.applicationInstallButton-1-58qm {
-  display: none;
-}
-.customStatusActivity-WKWGD-{
-  margin-top: 50px;
-  margin-left: 10px;
-}
 
 /* memberlist */
 .members-3WRCEx {
@@ -2683,19 +2645,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 
 
-.focusLock-2tveLW[aria-label] .root-8LYsGj .nameTag-2Nlmsy {
-	margin-left: 30px;
-}
-
-.focusLock-2tveLW[aria-label] .root-8LYsGj .badgeList-2aoHPw {
-	margin-left: 1px;
-}
-
-.focusLock-2tveLW[aria-label] .root-8LYsGj .nameTagNoCustomStatus-3ocqoK+.date-YN6TCS {
-	margin-left: 30px;
-	margin-bottom: 60px;
-}
-
 /* fixing unread messages bars */
 .divider-IqmEqJ,
 .unreadPill-3nEWYM,
@@ -3385,4 +3334,22 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 /* fix the new svg banners */
 .userPopout-2j1gM4 .headerNormal-3Zn_yu>.bannerSVGWrapper-qc0szY>foreignObject{
   mask: none;
+}
+
+/* new profile popout banner style */
+
+.bannerSVGWrapper-qc0szY {
+  background-color: transparent;
+  margin: 10px;
+  width: calc(100% - 20px);
+  min-width: unset !important;
+  border-radius: 15px;
+	box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
+}
+.header-S26rhB>div:first-child>.wrapper-1VLyxH{
+  border: 7px solid #18191c;
+  box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
+}
+.bannerSVGWrapper-qc0szY mask{
+  display: none;
 }
