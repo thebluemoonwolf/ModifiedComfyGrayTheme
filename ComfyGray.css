@@ -3322,12 +3322,8 @@ html body #app-mount .wrapper-28eC3z foreignObject {
   text-decoration: underline;
 }
 
-/* fix the new svg banners */
-.userPopout-2j1gM4 .headerNormal-3Zn_yu>.bannerSVGWrapper-qc0szY>foreignObject{
-  mask: none;
-}
 
-/* new profile popout banner style */
+/* new profile popout banner style and fix the stupid masks on the banners*/
 
 .root-g14mjS .bannerSVGWrapper-qc0szY {
   background-color: transparent;
@@ -3341,6 +3337,6 @@ html body #app-mount .wrapper-28eC3z foreignObject {
   border: 7px solid #18191c;
   box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
 }
-.root-g14mjS .bannerSVGWrapper-qc0szY mask{
+.bannerSVGWrapper-qc0szY mask{
   display: none;
 }
