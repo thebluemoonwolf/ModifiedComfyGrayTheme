@@ -3319,21 +3319,22 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 }
 
 /* fixing the new disgusting user tag */
-.discordMemberCreatedAt-3htTfn {
-	height: 24px;
-	padding: 8px;
+.discordMemberCreatedAtIconContainer-2oMHqL  {
+   padding: 0px;
+   background-color: var(--background-tertiary);
 }
-.discordMemberCreatedAtIconContainer-2NS-8S {
-	padding: 0px;
-	background-color: var(--background-tertiary);
+.discordMemberCreatedAtIcon-126if8 {
+   width: 24px;
+   height: 24px;
 }
-.discordMemberCreatedAtText-18ZCAV>div{
-	display: none;
+.discordMemberCreatedAtText-15sN5q>div{
+   display: none;
 }
-.discordMemberCreatedAt-3htTfn>.discordMemberCreatedAtText-18ZCAV>h3{
-	font-size: 16px;
-	font-family: inherit;
-	font-weight: 600;
+.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
+   font-size: 16px;
+   font-family: inherit;
+   font-weight: 600;
+   user-select: text;
 }
 
 
