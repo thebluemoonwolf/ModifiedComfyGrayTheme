@@ -3380,3 +3380,8 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .messageContent-2t3eCI>a[title]:not([title^="https://discord.com/"],[title^="https://canary.discord.com/"]):hover{
   text-decoration: underline;
 }
+
+/* fix the new svg banners */
+.userPopout-2j1gM4 .headerNormal-3Zn_yu>.bannerSVGWrapper-qc0szY>foreignObject{
+  mask: none;
+}
