@@ -1552,14 +1552,13 @@ button[aria-label="Show Game Activity"]::before {
 	text-decoration: none !important;
 }
 
-.wrapper-1ZcZW- .channelIcon-3I2O7O {
+.wrapper-1ZcZW- .channelIcon-3I2O7O:not(.repliedTextPreview-1bvxun .channelIcon-3I2O7O) {
 	position: relative;
 	margin-left: -15px !important;
 	top: 4px;
 	transform: scale(.9);
 	left: -2px;
 }
-
 
 /* quickswitcher restyle */
 .container-qBnZJg {
