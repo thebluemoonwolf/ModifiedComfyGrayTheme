@@ -3334,3 +3334,15 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .bannerSVGWrapper-qc0szY mask{
   display: none;
 }
+
+
+/* some bug fixes */
+.focusLock-2tveLW>.carouselModal-1eUFoq:not(#a){
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: none;
+}
+.repliedTextPreview-1bvxun .channelIcon-3I2O7O{
+  transform: scale(.9);
+  margin: -2px 2px 0 0;
+}
