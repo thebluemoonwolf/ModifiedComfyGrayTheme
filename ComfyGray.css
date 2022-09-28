@@ -3346,3 +3346,12 @@ html body #app-mount .wrapper-28eC3z foreignObject {
   transform: scale(.9);
   margin: -2px 2px 0 0;
 }
+.avatarHoverTarget-l77PhT+svg foreignObject{
+  mask: none;
+}
+.avatarHint-2g3Mcd{
+  border-radius: 50%;
+}
+.avatarHoverTarget-l77PhT circle{
+  display: none;
+}
