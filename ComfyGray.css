@@ -3355,12 +3355,11 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .avatarHoverTarget-l77PhT circle{
   display: none;
 }
-.userInfoSection-3her-v>h3{
+.userInfoSection-3her-v>h1{
   justify-content: center;
   margin-top: 15px;
 }
 .userInfoSection-3her-v>div{
-  display: flex;
   justify-content: center;
 }
 .userInfoSection-3her-v>div>div{
