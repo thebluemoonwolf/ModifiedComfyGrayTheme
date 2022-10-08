@@ -3355,7 +3355,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .avatarHoverTarget-l77PhT circle{
   display: none;
 }
-.userInfoSection-3her-v>h1{
+.userInfoSection-3her-v>:where(h1,h2,h3){
   justify-content: center;
   margin-top: 15px;
 }
