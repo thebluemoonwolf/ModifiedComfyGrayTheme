@@ -60,13 +60,11 @@ body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.b
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
   width                   :               55px !important;
   height                  :               55px !important;
-  border-radius           :               50% !important;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD>svg {
   width                   :               55px;
   height                  :               55px;
-  border-radius           :               50% !important;
 }
 
 .panels-3wFtMD>div:last-child {
