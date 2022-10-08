@@ -1360,21 +1360,21 @@ button[aria-label="Show Game Activity"]::before {
 	border-radius: 10px;
 }
 
-.menu-1QACrS {
+.menu-1QACrS:not(#account) {
 	animation: box-shadow infinite 4s, custom-menu-animation 250ms ease;
 	transform-origin: top;
 	border-radius: 12px;
 }
 
-.menu-1QACrS {
+.menu-1QACrS:not(#account) {
 	border-radius: 10px;
 }
 
-.menu-1QACrS .item-1OdjEX:not(.focused-3qFvc8) {
+.menu-1QACrS:not(#account) .item-1OdjEX:not(.focused-3qFvc8) {
 	border-radius: 25px;
 }
 
-.menu-1QACrS .item-1OdjEX:hover {
+.menu-1QACrS:not(#account) .item-1OdjEX:hover {
 	border-radius: 10px;
 	background-color: rgb(58, 58, 58);
 }
@@ -2276,7 +2276,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 	border-radius: 0px;
 }
 
-#account {
+#account:not(.menu-1QACrS) {
 	margin-left: 40px;
 	margin-bottom: -17px;
 	border-bottom-left-radius: 0;
