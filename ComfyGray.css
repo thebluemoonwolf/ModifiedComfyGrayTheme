@@ -1,16 +1,3 @@
-/**
-* @name ComfyGray
-* @version 1.0
-* @author carrot#8812
-* @description A theme with a nice shade of gray everywhere! Its super comfy.
-* @source https://github.com/ObjectiveSlayer/ComfyGray
-* @invite not-set
-*/
-
-
-/* making it so dark and light mode are the same (since the theme is only gray) */
-
-
 .theme-dark,
 .theme-light {
 	--header-primary: #fff;
