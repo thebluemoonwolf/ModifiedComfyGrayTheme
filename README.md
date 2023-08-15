@@ -1,4 +1,4 @@
-<h1 align="center">ComfyGray</h1>
+<h1 align="center">ComfyGray AvatarModified</h1>
 <p align="center">
   <a href="#dracula">overview</a> |
   <a href="#installation">installation</a> |
@@ -7,7 +7,7 @@
 
 ![](https://i.imgur.com/ohvHd2s.png)
 
-<p align="center">a nice, smooth, comfortable gray theme for Discord.</p>
+<p align="center">a nice, smooth, comfortable gray theme for Discord modified to fix the avatar popout</p>
 
 ---
 
@@ -22,5 +22,4 @@
 ## Credits
 
 - [Obscure](https://github.com/Obscure-Git) for modern icons and user controls area addons and other css snippets i used.
-
-**please inform me if i forgot anyone**
+- [ObjectiveSlayer](https://github.com/ObjectiveSlayer/ComfyGray). for the code 
